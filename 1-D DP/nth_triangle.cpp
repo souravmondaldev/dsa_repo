@@ -10,4 +10,5 @@ int main(){
         dp[i] = dp[i - 1] + i;
     }
     cout << dp[n] <<endl;
+    // O(1) (n*(n+1)/2)
 }
